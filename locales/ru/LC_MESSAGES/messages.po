@@ -1,0 +1,244 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-09-17 23:14+0300\n"
+"PO-Revision-Date: 2021-09-17 23:14+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: app/handlers/admin.py:25 app/handlers/base.py:36
+msgid "Choose menu item:"
+msgstr "Выбери пункт меню:"
+
+#: app/handlers/admin.py:33 app/handlers/admin.py:55 app/handlers/admin.py:65
+#: app/handlers/admin.py:96
+msgid "Look the record list bellow:"
+msgstr "Смотри список записей ниже:"
+
+#: app/handlers/admin.py:37
+msgid "Records not found :("
+msgstr "Записи не найдены :("
+
+#: app/handlers/admin.py:43
+msgid "Name: {}\n"
+msgstr "Имя: {}\n"
+
+#: app/handlers/admin.py:44
+msgid "Record date: {}\n"
+msgstr "Дата записи: {}\n"
+
+#: app/handlers/admin.py:46
+msgid "Comment: {}"
+msgstr "Коментарий: {}"
+
+#: app/handlers/admin.py:47
+msgid ""
+"Record info:\n"
+"\n"
+msgstr ""
+"Информация по записи:\n"
+"\n"
+
+#: app/handlers/admin.py:77
+msgid "Add comment, please:"
+msgstr "Добавь коментарий пожалуйста:"
+
+#: app/handlers/admin.py:94
+msgid ""
+"Your record has been decline, see message bellow:\n"
+"\n"
+" {}"
+msgstr ""
+"Ваша запись была отклонена, посмотрите сообщение ниже:\n"
+"\n"
+" {}"
+
+#: app/handlers/record.py:20
+msgid "Choose date, please:"
+msgstr "Выбери дату пожалуйста:"
+
+#: app/handlers/record.py:29
+msgid "Sorry, but you are already signed up for this date!"
+msgstr "Извините, но вы уже записаны на эту дату!"
+
+#: app/handlers/record.py:33
+msgid ""
+"You have successfully signed up for {record_date}. Our manager will "
+"contact you."
+msgstr ""
+"Вы успешно зарегестрированы на {record_date}. Наш менеджер свяжется с "
+"вами."
+
+#: app/handlers/registration.py:26
+msgid "Hi {user_name}! Choose menu item:"
+msgstr "Привет {user_name}! Выбери пункт меню:"
+
+#: app/handlers/registration.py:55
+msgid "Let's meet, what's your name?"
+msgstr "Давай познакомимся, как тебя зовут?"
+
+#: app/handlers/registration.py:61
+msgid "Language changed successfully."
+msgstr "Язык  успешно изменен."
+
+#: app/handlers/registration.py:76
+msgid ""
+"Please, enter your phone number or send a contact by clicking on the "
+"button below:"
+msgstr ""
+"Пожалуйста, напиши свой номер телефона или отправь контакт нажав кнопку "
+"ниже:"
+
+#: app/handlers/registration.py:80
+msgid "The name is not correct! Please try again."
+msgstr "Имя некоректно! Пожалуйста, попробуйте еще раз."
+
+#: app/handlers/registration.py:89
+msgid "The phone number is incorrect! Please try again."
+msgstr "Номер телефона не коректный! Попробуйте еще раз."
+
+#: app/handlers/registration.py:106
+msgid ""
+"Thank you for registering! You can now start recording. Please, choose "
+"menu item:"
+msgstr ""
+"Спасибо за регистрацию! Теперь вы можете записаться. Пожалуйста, выберите"
+"  пункт меню:"
+
+#: app/handlers/settings.py:16
+msgid "Choose an action:"
+msgstr "Выбери действие:"
+
+#: app/handlers/settings.py:23
+msgid "Choose your language please:"
+msgstr "Выбери язык пожалуйста:"
+
+#: app/utils/keyboard.py:19
+msgid "🛠 Settings"
+msgstr "🛠 Настройки"
+
+#: app/utils/keyboard.py:20
+msgid "🌐 Change language"
+msgstr "🌐 Изменить язык"
+
+#: app/utils/keyboard.py:21
+msgid "⬅️ Main menu"
+msgstr "⬅️ Главное меню"
+
+#: app/utils/keyboard.py:22
+msgid "📝 Make an appointment"
+msgstr "📝 Записаться"
+
+#: app/utils/keyboard.py:23
+msgid "🗒 List of records"
+msgstr "🗒 Список записей"
+
+#: app/utils/keyboard.py:24
+msgid "❌ Cancel"
+msgstr "❌ Отменить"
+
+#: app/utils/keyboard.py:25
+msgid "✅ Confirm"
+msgstr "✅ Подтвердить"
+
+#: app/utils/keyboard.py:26
+msgid "❌ Decline"
+msgstr "❌ Отклонить"
+
+#: app/utils/keyboard.py:27
+msgid "Show more 👉"
+msgstr "Показать еще 👉"
+
+#: app/utils/keyboard.py:56
+msgid "📱 Send contact"
+msgstr "📱 Отправить контакт"
+
+#: app/utils/simple_calendar.py:39
+msgid "January"
+msgstr "Январь"
+
+#: app/utils/simple_calendar.py:39
+msgid "February"
+msgstr "Февраль"
+
+#: app/utils/simple_calendar.py:39
+msgid "March"
+msgstr "Март"
+
+#: app/utils/simple_calendar.py:39
+msgid "April"
+msgstr "Апрель"
+
+#: app/utils/simple_calendar.py:39
+msgid "May"
+msgstr "Май"
+
+#: app/utils/simple_calendar.py:39
+msgid "June"
+msgstr "Июнь"
+
+#: app/utils/simple_calendar.py:39
+msgid "July"
+msgstr "Июль"
+
+#: app/utils/simple_calendar.py:40
+msgid "August"
+msgstr "Август"
+
+#: app/utils/simple_calendar.py:40
+msgid "September"
+msgstr "Сентябрь"
+
+#: app/utils/simple_calendar.py:40
+msgid "October"
+msgstr "Октябрь"
+
+#: app/utils/simple_calendar.py:40
+msgid "November"
+msgstr "Ноябрь"
+
+#: app/utils/simple_calendar.py:40
+msgid "December"
+msgstr "Декабрь"
+
+#: app/utils/simple_calendar.py:51
+msgid "Mo"
+msgstr "Пн"
+
+#: app/utils/simple_calendar.py:51
+msgid "Tu"
+msgstr "Вт"
+
+#: app/utils/simple_calendar.py:51
+msgid "We"
+msgstr "Ср"
+
+#: app/utils/simple_calendar.py:51
+msgid "Th"
+msgstr "Чт"
+
+#: app/utils/simple_calendar.py:51
+msgid "Fr"
+msgstr "Пт"
+
+#: app/utils/simple_calendar.py:51
+msgid "Sa"
+msgstr "Сб"
+
+#: app/utils/simple_calendar.py:51
+msgid "Su"
+msgstr "Вс"
+

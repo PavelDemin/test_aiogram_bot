@@ -1,0 +1,231 @@
+# Translations template for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-09-17 23:14+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: app/handlers/admin.py:25 app/handlers/base.py:36
+msgid "Choose menu item:"
+msgstr ""
+
+#: app/handlers/admin.py:33 app/handlers/admin.py:55 app/handlers/admin.py:65
+#: app/handlers/admin.py:96
+msgid "Look the record list bellow:"
+msgstr ""
+
+#: app/handlers/admin.py:37
+msgid "Records not found :("
+msgstr ""
+
+#: app/handlers/admin.py:43
+msgid "Name: {}\n"
+msgstr ""
+
+#: app/handlers/admin.py:44
+msgid "Record date: {}\n"
+msgstr ""
+
+#: app/handlers/admin.py:46
+msgid "Comment: {}"
+msgstr ""
+
+#: app/handlers/admin.py:47
+msgid ""
+"Record info:\n"
+"\n"
+msgstr ""
+
+#: app/handlers/admin.py:77
+msgid "Add comment, please:"
+msgstr ""
+
+#: app/handlers/admin.py:94
+msgid ""
+"Your record has been decline, see message bellow:\n"
+"\n"
+" {}"
+msgstr ""
+
+#: app/handlers/record.py:20
+msgid "Choose date, please:"
+msgstr ""
+
+#: app/handlers/record.py:29
+msgid "Sorry, but you are already signed up for this date!"
+msgstr ""
+
+#: app/handlers/record.py:33
+msgid ""
+"You have successfully signed up for {record_date}. Our manager will "
+"contact you."
+msgstr ""
+
+#: app/handlers/registration.py:26
+msgid "Hi {user_name}! Choose menu item:"
+msgstr ""
+
+#: app/handlers/registration.py:55
+msgid "Let's meet, what's your name?"
+msgstr ""
+
+#: app/handlers/registration.py:61
+msgid "Language changed successfully."
+msgstr ""
+
+#: app/handlers/registration.py:76
+msgid ""
+"Please, enter your phone number or send a contact by clicking on the "
+"button below:"
+msgstr ""
+
+#: app/handlers/registration.py:80
+msgid "The name is not correct! Please try again."
+msgstr ""
+
+#: app/handlers/registration.py:89
+msgid "The phone number is incorrect! Please try again."
+msgstr ""
+
+#: app/handlers/registration.py:106
+msgid ""
+"Thank you for registering! You can now start recording. Please, choose "
+"menu item:"
+msgstr ""
+
+#: app/handlers/settings.py:16
+msgid "Choose an action:"
+msgstr ""
+
+#: app/handlers/settings.py:23
+msgid "Choose your language please:"
+msgstr ""
+
+#: app/utils/keyboard.py:19
+msgid "🛠 Settings"
+msgstr ""
+
+#: app/utils/keyboard.py:20
+msgid "🌐 Change language"
+msgstr ""
+
+#: app/utils/keyboard.py:21
+msgid "⬅️ Main menu"
+msgstr ""
+
+#: app/utils/keyboard.py:22
+msgid "📝 Make an appointment"
+msgstr ""
+
+#: app/utils/keyboard.py:23
+msgid "🗒 List of records"
+msgstr ""
+
+#: app/utils/keyboard.py:24
+msgid "❌ Cancel"
+msgstr ""
+
+#: app/utils/keyboard.py:25
+msgid "✅ Confirm"
+msgstr ""
+
+#: app/utils/keyboard.py:26
+msgid "❌ Decline"
+msgstr ""
+
+#: app/utils/keyboard.py:27
+msgid "Show more 👉"
+msgstr ""
+
+#: app/utils/keyboard.py:56
+msgid "📱 Send contact"
+msgstr ""
+
+#: app/utils/simple_calendar.py:39
+msgid "January"
+msgstr ""
+
+#: app/utils/simple_calendar.py:39
+msgid "February"
+msgstr ""
+
+#: app/utils/simple_calendar.py:39
+msgid "March"
+msgstr ""
+
+#: app/utils/simple_calendar.py:39
+msgid "April"
+msgstr ""
+
+#: app/utils/simple_calendar.py:39
+msgid "May"
+msgstr ""
+
+#: app/utils/simple_calendar.py:39
+msgid "June"
+msgstr ""
+
+#: app/utils/simple_calendar.py:39
+msgid "July"
+msgstr ""
+
+#: app/utils/simple_calendar.py:40
+msgid "August"
+msgstr ""
+
+#: app/utils/simple_calendar.py:40
+msgid "September"
+msgstr ""
+
+#: app/utils/simple_calendar.py:40
+msgid "October"
+msgstr ""
+
+#: app/utils/simple_calendar.py:40
+msgid "November"
+msgstr ""
+
+#: app/utils/simple_calendar.py:40
+msgid "December"
+msgstr ""
+
+#: app/utils/simple_calendar.py:51
+msgid "Mo"
+msgstr ""
+
+#: app/utils/simple_calendar.py:51
+msgid "Tu"
+msgstr ""
+
+#: app/utils/simple_calendar.py:51
+msgid "We"
+msgstr ""
+
+#: app/utils/simple_calendar.py:51
+msgid "Th"
+msgstr ""
+
+#: app/utils/simple_calendar.py:51
+msgid "Fr"
+msgstr ""
+
+#: app/utils/simple_calendar.py:51
+msgid "Sa"
+msgstr ""
+
+#: app/utils/simple_calendar.py:51
+msgid "Su"
+msgstr ""
+

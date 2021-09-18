@@ -1,0 +1,67 @@
+version: '3.8'
+
+services:
+  nginx_service:
+    image: nginx:latest
+    container_name: nginx_test
+    volumes:
+      - ./scripts/nginx.conf:/etc/nginx/nginx.conf
+      - ./scripts/nginx/error.log:/etc/nginx/error_log.log
+      - ./scripts/nginx/cache/:/etc/nginx/cache
+      - /etc/letsencrypt/:/etc/letsencrypt/
+    ports:
+      - 80:80
+      - 443:443
+    networks:
+      - app-network
+    depends_on:
+      - app
+    restart: always
+  app:
+    expose:
+      - 8000
+    ports:
+      - 8000:8000
+    container_name: bot_test
+    build:
+      context: .
+    restart: always
+    depends_on:
+      - postgres
+    environment:
+      DOMAIN: botodev.ru
+      PUBLIC_HOST: 0.0.0.0
+      BOT_PUBLIC_PORT: 8000
+      WEBHOOK_PATH: webhook
+      TELEGRAM_TOKEN: 1003665340:AAHNSs_fmOH7Gl7oNbOoH8lXKjUxgN7SKvQ
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: 5432
+      POSTGRES_PASSWORD: erauugg6655qw
+      POSTGRES_USER: postgres
+      POSTGRES_DB: test_bot
+      DB_RETRY_LIMIT: 32
+      DB_RETRY_INTERVAL: 1
+      ADMIN: 228534214
+      COUNT_RECORDS_RER_PAGE: 5
+    networks:
+      - app-network
+
+  postgres:
+    image: postgres:13-alpine
+    container_name: postgres_test
+    restart: always
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: erauugg6655qw
+      POSTGRES_USER: postgres
+      POSTGRES_DB: test_bot
+    networks:
+      - app-network
+
+volumes:
+  postgres-data:
+
+networks:
+  app-network:
+    driver: bridge
