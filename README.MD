@@ -15,6 +15,7 @@
 - Клонировать текущий репозиторий <code> git clone https://github.com/PavelDemin/test_aiogram_bot.git </code>
 - В <code> docker-compose.yml </code> необходимо изменить <b> TELEGRAM_TOKEN </b> и <b> DOMAIN </b> на свои.
 - При необходимости изменить путь до SSL сертификата вашего домена <code> /etc/letsencrypt/:/etc/letsencrypt/ </code>
+- Задать Telegram ID администратора в <b> ADMIN </b>
 
 ### Запуск
 
