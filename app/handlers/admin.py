@@ -7,7 +7,7 @@ from aiogram.utils.markdown import hbold
 from app.misc import dp, i18n
 from app.utils import keyboard
 from app.config import config
-from app.models import record
+from app.models import record, user
 from app.utils import helpers
 
 
@@ -91,9 +91,11 @@ async def input_comment_handler(message: types.Message, state: FSMContext):
     )
     async with state.proxy() as data:
         await record.update_status(data["record_id"], 2, message.text)
-    r = await record.get_records_by_id(data["record_id"])
-    msg = _("Your record has been decline, see message bellow:\n\n {}").format(hbold(message.text))
-    await helpers.send_message(r.parent.chat_id, msg)
+        r = await record.get_records_by_id(data["record_id"])
+        u = await user.get_user(r.parent.chat_id)
+        i18n.ctx_locale.set(u.language)
+        msg = _("Your record has been decline, see message bellow:\n\n {}").format(hbold(message.text))
+        await helpers.send_message(r.parent.chat_id, msg)
     msg = _("Look the record list bellow:")
     records = await get_record_list()
     await message.answer(msg, reply_markup=keyboard.generate_list_markup(records))

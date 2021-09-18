@@ -57,7 +57,7 @@ def send_contact_markup() -> ReplyKeyboardMarkup:
                 request_contact=True
             )
         ]
-    ])
+    ], resize_keyboard=True)
 
 
 def settings_markup() -> ReplyKeyboardMarkup:
