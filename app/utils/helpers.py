@@ -15,9 +15,9 @@ def check_name(name: str) -> bool:
 
 
 def parse_phone(text: str) -> int:
-    phone = re.sub(r"|\+|\(|\)| |$", "", text)
-    regex = re.compile(r"^(?:7|8)?9(?:\d{9})$")
-    if phone.isdigit() and regex.findall(phone):
+    phone = re.sub(r"|\+|\-|\(|\)| |$", "", text)
+    regex = re.compile(r"^([+]?\d{1,2}[-\s]?|)\d{3}[-\s]?\d{3}[-\s]?\d{4}$")
+    if regex.match(phone):
         return int(phone)
 
 
